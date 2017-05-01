@@ -22,10 +22,6 @@ body,
 :focus {
 	outline: 0;
 }
-input:not([type="checkbox"]),
-textarea {
-	-moz-appearance: none;
-}
 a {
 	transition: background 0.1s linear 0s, color 0.1s linear 0s;
 }
@@ -371,8 +367,8 @@ button {
 }
 .gerritBody .screen {
 	padding: 0;
-	font-size: 14px;
-	line-height: 1.3;
+	font-size: 14px !important;
+	line-height: 1.3 !important;
 }
 .gerritBody .screen table table td {
 	padding: 5px 10px;
@@ -614,7 +610,7 @@ button {
 	width: 100%;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-messageBox {
-	width: 100%;
+	width: 100% !important;
 	border-radius: 0 !important;
 	box-sizing: border-box;
 }
@@ -625,12 +621,12 @@ button {
 }
 th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn1,
 th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
-	text-align: right;
-	padding: 5px 10px;
+	text-align: right !important;
+	padding: 5px 10px !important;
 	background: transparent;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
-	margin: 0;
+	margin: 0 !important;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-header {
 	height: 30px;
@@ -646,30 +642,30 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	left: 2px;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-contents {
-	margin-left: 40px;
+	margin-left: 40px !important;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-messageBox .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-avatar {
-	top: 7px;
-	left: 6px;
+	top: 7px !important;
+	left: 6px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
-	margin-top: 20px;
+	margin-top: 20px !important;
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-subject {
-	width: 90%;
+	width: 90% !important;
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-row {
 	height: 30px;
 	line-height: 30px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoLine {
-	left: auto;
+	left: auto !important;
 	right: 348px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons {
-	border: none;
-	top: 0;
-	left: auto;
+	border: none !important;
+	top: 0 !important;
+	left: auto !important;
 	right: 12px;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel {
@@ -701,6 +697,9 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel {
 	width: 100%;
+}
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBar {
+        border-bottom: 3px solid #ccc;
 }
 .gwt-TabBar {
 	border-bottom: 3px solid #ccc;
@@ -800,10 +799,10 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 #change_actions button,
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button {
 	border-radius: 2px;
-	font-size: 12px;
+	font-size: 12px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button {
-	margin-right: 12px;
+	margin-right: 12px !important;
 }
 #change_actions button:hover,
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button:hover {
@@ -827,8 +826,8 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	display: none;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn {
-	width: 325px;
-	padding-right: 0;
+	width: 325px !important;
+	padding-right: 0 !important;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-contents p {
 	margin-top: 3px;
@@ -855,17 +854,22 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	background: transparent;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoLine {
-	top: -2px;
+	top: -2px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons {
 	top: 0;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button {
+	min-width: 80px !important;
+	padding-right: 6px !important;
+	padding-left: 6px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button:hover {
 	opacity: 0.7;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div {
 	position: relative;
-	padding-right: 19px;
+	padding-right: 19px !important;
 	font-size: 13px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div::before {
@@ -880,7 +884,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	top: 5px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div::after {
-	content: '';
+	content: '' !important;
 	position: absolute;
 	width: 0;
 	height: 0;
@@ -931,7 +935,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 }
 #change_actions {
 	margin-left: -10px;
-	padding-bottom: 5px;
+	padding-bottom: 5px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-labels {
 	margin-left: -10px;
@@ -941,7 +945,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	border: none !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-text {
-	line-height: 15px;
+	line-height: 15px !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-collapsed .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-scroll {
 	padding-top: 7px;
@@ -958,7 +962,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-userPanel img {
 	position: relative;
-	margin-right: 4px;
+	margin-right: 4px !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-userPanel a {
 	position: relative;
@@ -1008,14 +1012,14 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	margin-right: 0;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase {
-	font-size: 14px;
+	font-size: 14px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase select {
-	height: 23px;
-	margin-top: 1px;
+	height: 23px !important;
+	margin-top: 1px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader button {
-	margin-top: 1px;
+	margin-top: 1px !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-text {
 	padding: 0 5px;
@@ -1126,7 +1130,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	vertical-align: middle;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
-	padding: 5px 8px;
+	padding: 5px 8px !important;
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-pointer {
 	padding-top: 5px;

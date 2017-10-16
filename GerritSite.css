@@ -17,7 +17,7 @@ body, table td, select {
 }
 body,
 .gwt-DialogBox .dialogMiddleCenter {
-	color: #333;
+	color: #fff;
 }
 :focus {
 	outline: 0;
@@ -31,7 +31,7 @@ a {
 	color: #000;
 }
 .gerritTopMenu a:hover {
-	color: #007AC9;
+	color: #a3130b;
 }
 .gerritBody a:link,
 #gerrit_btmmenu a:link,
@@ -39,18 +39,18 @@ a {
 #gerrit_btmmenu a:visited,
 .popupContent a:link,
 .popupContent a:visited {
-	color: #02779D;
+	color: #78110c;
 	text-decoration: none;
 }
 .gerritBody a:active,
 #gerrit_btmmenu a:active,
 .popupContent a:active {
-	color: #54BFD6;
+	color: #cf554e;
 }
 .gerritBody a:hover,
 #gerrit_btmmenu a:hover,
 .popupContent a:hover {
-	color: #17A3C1;	
+	color: #a3130b;	
 	text-decoration: none;
 }
 input[type="text"] {
@@ -60,7 +60,7 @@ input[type="text"] {
 	border-radius: 2px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
 	box-sizing: border-box;
-	color: #666;
+	color: #000;
 	display: inline-block;
 	font-size: 13px;
 	height: 2.462em;
@@ -72,9 +72,9 @@ input[type="text"] {
 }
 input[type="text"]:focus {
 	color: #606060;
-	border: 2px solid #0c92e3;
+	border: 2px solid #a3130b;
 	background-color: #fff;
-	box-shadow: 0 0 4px #d1eafa;
+	box-shadow: 0 0 4px #a3130b;
 	padding: .231em .538em;
 	outline: 0;
 }
@@ -88,25 +88,25 @@ button {
 	left: auto;
 	margin: 0 auto;
 	box-sizing: border-box;
-	max-width: 1600px;
+	max-width: 1800px;
 	margin-top: 16px;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem {
-	font-size: 16px;
+	font-size: 10px;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem:hover {
-	color: #56C0E7;
+	color: #a3130b;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem-selected {
-	color: #199DEE;
-	border-bottom-color: #199DEE;
+	color: #a3130b;
+	border-bottom-color: #bd5751;
 }
 .gerritTopMenu .topmenuMenuLeft .gwt-TabPanelBottom {
 	margin-top: 0px;
 }
 .gerritTopMenu .menuItem.activeRow {
 	color: #fff;
-	background: #199DEE;
+	background: #a3130b;
 }
 .gerritTopMenu .topmenuMenuLeft {
 	padding: 0;
@@ -118,7 +118,7 @@ button {
 	border-bottom: none;
 }
 .gerritTopMenu .topmenuMenuLeft table.gwt-TabBar:after {
-	border-top: 3px solid #D4E1E7;
+	border-top: 3px solid #dbc4c3;
 	content: "";
 	display: block;
 	margin-top: -3px;
@@ -134,10 +134,10 @@ button {
 }
 .gerritTopMenu .topmenuMenuLeft .menuItem:hover {
 	color: #333;
-	background-color: #b5dff0;
+	background-color: #dbc0bf;
 }
 .gerritTopMenu .linkMenuBar {
-	font-size: 13px;
+	font-size: 14px;
 }
 .gerritTopMenu .topmenuMenuLeft .menuItem {
 	display: inline-block;
@@ -189,9 +189,9 @@ button {
 	font-size: 13px;
 	color: #666;
 	height: 32px;
-    border: 1px solid #c7c7c7;
-    border-radius: 2px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
+        border: 1px solid #c7c7c7;
+        border-radius: 2px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
 	margin-left: 8px;
 	vertical-align: top;
 }
@@ -216,9 +216,9 @@ button {
 	font-size: 13px;
 	margin-left: 8px;
 	padding: 0 12px;
-	border: 2px solid #199DEE;
+	border: 2px solid #a3130b;
 	vertical-align: top;
-	background-color: #199DEE;
+	background-color: #a3130b;
 	transition: 0.1s background-color linear;
 }
 .gerritTopMenu .searchPanel .searchButton:hover {
@@ -228,7 +228,7 @@ button {
 /* Header */
 
 #gerrit_header {
-	max-width: 1600px;
+	max-width: 1800px;
 	margin: 0 auto;
 }
 #gerrit_header #diffy_logo {
@@ -242,14 +242,14 @@ button {
 
 .gerritBody {
 	font-size: 13px !important;
-	max-width: 1600px;
+	max-width: 1800px;
 	margin: 8px auto;
 }
 .gerritBody > div {
 	padding: 0 16px;
 }
 .gerritBody .screenHeader {
-	font-size: 16px;
+	font-size: 14px;
 	margin: 3px 0 5px;
 }
 .gerritBody td {
@@ -274,18 +274,18 @@ button {
 .gerritBody .changeTable .iconHeader,
 .gerritBody .changeTable .dataHeader,
 .gerritBody .com-google-gerrit-client-change-FileTable-FileTableCss-nohover:first-child th {
-	color: #333;
+	color: #fff;
 	font-style: normal;
 	font-weight: bold;
-	background: #E1E4E6;
+	background: #a3130b;
 	border: none;
 	width: auto;
 }
 .gerritBody table.changeTable tr:nth-child(even) {
-	background: #F8F8F8;
+	background: #FFFFFF;
 }
 .gerritBody .changeTable a.gwt-InlineHyperlink:hover {
-	color: #308ECA;
+	color: #91433f;
 	text-decoration: none;
 }
 .gerritBody .changeTable .dataCell {
@@ -322,7 +322,9 @@ button {
 .gerritBody .changeTable .activeRow,
 .gerritBody .accountDashboard.changeTable .activeRow,
 .gerritBody .accountDashboard.changeTable .activeRow a {
-	background: #E3F2FF !important;
+	background: #dedcdc !important;
+        font-style: normal;
+        font-weight: bold;
 }
 
 /* Next/Prev links */
@@ -363,7 +365,7 @@ button {
 	cursor: pointer;
 }
 .gerritBody .changeTablePrevNextLinks td .gwt-Hyperlink a:hover:after {
-	color: #0287B2;
+	color: #a3130b;
 }
 .gerritBody .screen {
 	padding: 0;
@@ -462,7 +464,7 @@ button {
 	border-color: #92A8B1;
 }
 .gerritBody .downloadLink:hover {
-	color: #02779D;
+	color: #732e2a;
 }
 .gerritBody .downloadLinkList .downloadLink_Active {
 	background: #E3F2FF;
@@ -490,7 +492,7 @@ button {
 	padding: 0 0 3px 6px;
 }
 .gerritBody .menuScreenMenuBar {
-	border-color: #D4E1E7;
+	border-color: #debcba;
 }
 .gerritBody .menuScreenMenuBar .menuItem {
 	padding-left: 1em;
@@ -543,7 +545,7 @@ button {
 .gerritBody .patchContentTable td.commentHolder.commentPanelLast,
 .gerritBody .patchContentTable td.commentHolderLeftmost,
 .gerritBody .patchContentTable td.commentHolder {
-	border-color: #B0BDCC;
+	border-color: #a3130b;
 }
 .gerritBody .commentPanelButtons .gwt-Button {
 	font-size: 11px;
@@ -569,7 +571,7 @@ button {
 /* Footer */
 
 #gerrit_btmmenu {
-	max-width: 1600px;
+	max-width: 1800px;
 	margin: 20px auto 10px;
 	padding-right: 25px !important;
 	font-size: 12px;
@@ -673,7 +675,7 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	margin-left: -40px;
 	width: calc(100% + 40px);
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
 		.gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel {
 		width: calc(100% + 100px);
 		margin-left: -100px;
@@ -688,7 +690,7 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	background: transparent !important;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBarItem-wrapper .gwt-TabBarItem.gwt-TabBarItem-selected {
-	border-color: #199DEE !important;
+	border-color: #b54c47 !important;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBarItem-wrapper .gwt-TabBarItem .gwt-Label {
 	font-weight: normal;
@@ -736,7 +738,7 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	max-width: none;
 	width: 100%;
 	font-weight: 400;
-	background-color: #FAFBFC;
+	background-color: #424242;
 	border: 1px solid #C7C7C7;
 	border-radius: 3px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
@@ -990,7 +992,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	max-width: none;
 	width: 100%;
 	font-weight: 400;
-	background-color: #FAFBFC;
+	background-color: #424242;
 	border: 1px solid #C7C7C7;
 	border-radius: 3px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;

@@ -31,7 +31,7 @@ a {
 	color: #000;
 }
 .gerritTopMenu a:hover {
-	color: #a3130b;
+	color: #20efab;
 }
 .gerritBody a:link,
 #gerrit_btmmenu a:link,
@@ -39,18 +39,18 @@ a {
 #gerrit_btmmenu a:visited,
 .popupContent a:link,
 .popupContent a:visited {
-	color: #78110c;
+	color: #1ee0a0;
 	text-decoration: none;
 }
 .gerritBody a:active,
 #gerrit_btmmenu a:active,
 .popupContent a:active {
-	color: #cf554e;
+	color: #21ef8b;
 }
 .gerritBody a:hover,
 #gerrit_btmmenu a:hover,
 .popupContent a:hover {
-	color: #a3130b;	
+	color: #20efab;	
 	text-decoration: none;
 }
 input[type="text"] {
@@ -72,9 +72,9 @@ input[type="text"] {
 }
 input[type="text"]:focus {
 	color: #606060;
-	border: 2px solid #a3130b;
+	border: 2px solid #20efab;
 	background-color: #fff;
-	box-shadow: 0 0 4px #a3130b;
+	box-shadow: 0 0 4px #20efab;
 	padding: .231em .538em;
 	outline: 0;
 }
@@ -95,18 +95,18 @@ button {
 	font-size: 10px;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem:hover {
-	color: #a3130b;
+	color: #20efab;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem-selected {
-	color: #a3130b;
-	border-bottom-color: #bd5751;
+	color: #20efab;
+	border-bottom-color: #21ef8b;
 }
 .gerritTopMenu .topmenuMenuLeft .gwt-TabPanelBottom {
 	margin-top: 0px;
 }
 .gerritTopMenu .menuItem.activeRow {
 	color: #fff;
-	background: #a3130b;
+	background: #20efab;
 }
 .gerritTopMenu .topmenuMenuLeft {
 	padding: 0;
@@ -118,7 +118,7 @@ button {
 	border-bottom: none;
 }
 .gerritTopMenu .topmenuMenuLeft table.gwt-TabBar:after {
-	border-top: 3px solid #dbc4c3;
+	border-top: 3px solid #21ef8b;
 	content: "";
 	display: block;
 	margin-top: -3px;
@@ -134,7 +134,7 @@ button {
 }
 .gerritTopMenu .topmenuMenuLeft .menuItem:hover {
 	color: #333;
-	background-color: #dbc0bf;
+	background-color: #21ef8b;
 }
 .gerritTopMenu .linkMenuBar {
 	font-size: 14px;
@@ -216,9 +216,9 @@ button {
 	font-size: 13px;
 	margin-left: 8px;
 	padding: 0 12px;
-	border: 2px solid #a3130b;
+	border: 2px solid #20efab;
 	vertical-align: top;
-	background-color: #a3130b;
+	background-color: #20efab;
 	transition: 0.1s background-color linear;
 }
 .gerritTopMenu .searchPanel .searchButton:hover {
@@ -277,7 +277,7 @@ button {
 	color: #fff;
 	font-style: normal;
 	font-weight: bold;
-	background: #a3130b;
+	background: #20efab;
 	border: none;
 	width: auto;
 }
@@ -285,7 +285,7 @@ button {
 	background: #FFFFFF;
 }
 .gerritBody .changeTable a.gwt-InlineHyperlink:hover {
-	color: #91433f;
+	color: #21ef8b;
 	text-decoration: none;
 }
 .gerritBody .changeTable .dataCell {
@@ -365,7 +365,7 @@ button {
 	cursor: pointer;
 }
 .gerritBody .changeTablePrevNextLinks td .gwt-Hyperlink a:hover:after {
-	color: #a3130b;
+	color: #20efab;
 }
 .gerritBody .screen {
 	padding: 0;
@@ -464,7 +464,7 @@ button {
 	border-color: #92A8B1;
 }
 .gerritBody .downloadLink:hover {
-	color: #732e2a;
+	color: #21ef8b;
 }
 .gerritBody .downloadLinkList .downloadLink_Active {
 	background: #E3F2FF;
@@ -492,7 +492,7 @@ button {
 	padding: 0 0 3px 6px;
 }
 .gerritBody .menuScreenMenuBar {
-	border-color: #debcba;
+	border-color: #21ef8b;
 }
 .gerritBody .menuScreenMenuBar .menuItem {
 	padding-left: 1em;
@@ -545,7 +545,7 @@ button {
 .gerritBody .patchContentTable td.commentHolder.commentPanelLast,
 .gerritBody .patchContentTable td.commentHolderLeftmost,
 .gerritBody .patchContentTable td.commentHolder {
-	border-color: #a3130b;
+	border-color: #20efab;
 }
 .gerritBody .commentPanelButtons .gwt-Button {
 	font-size: 11px;
@@ -690,7 +690,7 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	background: transparent !important;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBarItem-wrapper .gwt-TabBarItem.gwt-TabBarItem-selected {
-	border-color: #b54c47 !important;
+	border-color: #21ef8b !important;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBarItem-wrapper .gwt-TabBarItem .gwt-Label {
 	font-weight: normal;
